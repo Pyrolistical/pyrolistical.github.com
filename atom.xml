@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[xargs me]]></title>
   <link href="http://Pyrolistical.github.com/atom.xml" rel="self"/>
   <link href="http://Pyrolistical.github.com/"/>
-  <updated>2011-10-20T00:44:25-07:00</updated>
+  <updated>2011-10-20T22:48:05-07:00</updated>
   <id>http://Pyrolistical.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Pyrolistical]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
