@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Platonic solids | xargs me]]></title>
+  <link href="http://Pyrolistical.github.com/blog/categories/platonic-solids/atom.xml" rel="self"/>
+  <link href="http://Pyrolistical.github.com/"/>
+  <updated>2011-10-20T23:15:05-07:00</updated>
+  <id>http://Pyrolistical.github.com/</id>
+  <author>
+    <name><![CDATA[Pyrolistical]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why are D20s so popular?]]></title>
+    <link href="http://Pyrolistical.github.com/blog/2011/10/20/why-are-d20s-so-popular/"/>
+    <updated>2011-10-20T22:50:00-07:00</updated>
+    <id>http://Pyrolistical.github.com/blog/2011/10/20/why-are-d20s-so-popular</id>
+    <content type="html"><![CDATA[<p>I have to shamefully admit I never owned a D20 until recently.  While at the game shop I noticed they sold sets of dice as D4, D6, D8, D12, and D20.  Curious.  What is so special about these shapes?</p>
+
+<p>What is interesting is these shapes are <a href="http://en.wikipedia.org/wiki/Platonic_solid">Platonic solids</a>.  Platonic solids look "nice" because every face is the same shape and every angle between every shape is the same.  And what is unbelievable there are only 5 of them!  That bears repeating.  There is a finite number of such shapes, and there are only FIVE OF THEM!  Of all the possible shapes in 3D there are only 5 such shapes?  <a href="http://en.wikipedia.org/wiki/Euclid">Euclid</a> proved this in <a href="http://en.wikipedia.org/wiki/Euclid%27s_Elements">Elements</a>.</p>
+
+<p>So my first thought was if that was true then what about that trick of <a href="https://ziyan.info/2008/11/sphere-tessellation-using-icosahedron/">subdividing an icosahedron to tessellate a sphere</a>?  Why doesn't that create a platonic solid with 80 sides?  Its because the first subdivision creates a shape where some vertices terminate 5 edges and others terminate 6 edges.</p>
+
+<p>This is very sad as it mean we can never have an uniform <a href="http://en.wikipedia.org/wiki/Geodesic_grid">Geodesic Grid</a> larger than 20 faces.  This is because subdivision of a single triangle becomes a four triangles in the shape of a triforce. This means two adjacent subdivided triangles now share a vertex with 6 edges. There does not exist a regular shape with each vertex having 6 edges. So D20 are popular because that's as large as nice shapes get.</p>
+]]></content>
+  </entry>
+  
+</feed>
