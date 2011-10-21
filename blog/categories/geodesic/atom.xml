@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Geodesic | xargs me]]></title>
   <link href="http://Pyrolistical.github.com/blog/categories/geodesic/atom.xml" rel="self"/>
   <link href="http://Pyrolistical.github.com/"/>
-  <updated>2011-10-20T23:15:05-07:00</updated>
+  <updated>2011-10-20T23:19:29-07:00</updated>
   <id>http://Pyrolistical.github.com/</id>
   <author>
     <name><![CDATA[Pyrolistical]]></name>
@@ -24,7 +24,9 @@
 
 <p>So my first thought was if that was true then what about that trick of <a href="https://ziyan.info/2008/11/sphere-tessellation-using-icosahedron/">subdividing an icosahedron to tessellate a sphere</a>?  Why doesn't that create a platonic solid with 80 sides?  Its because the first subdivision creates a shape where some vertices terminate 5 edges and others terminate 6 edges.</p>
 
-<p>This is very sad as it mean we can never have an uniform <a href="http://en.wikipedia.org/wiki/Geodesic_grid">Geodesic Grid</a> larger than 20 faces.  This is because subdivision of a single triangle becomes a four triangles in the shape of a triforce. This means two adjacent subdivided triangles now share a vertex with 6 edges. There does not exist a regular shape with each vertex having 6 edges. So D20 are popular because that's as large as nice shapes get.</p>
+<p>This is very sad as it mean we can never have an uniform <a href="http://en.wikipedia.org/wiki/Geodesic_grid">Geodesic Grid</a> larger than 20 faces.  This is because subdivision of a single triangle becomes a four triangles in the shape of a triforce. This means two adjacent subdivided triangles now share a vertex with 6 edges. There does not exist a regular shape with each vertex having 6 edges.</p>
+
+<p>So D20 are popular because that's as large as nice shapes get.</p>
 ]]></content>
   </entry>
   
