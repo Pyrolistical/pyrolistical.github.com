@@ -4,7 +4,7 @@
 
 url: http://Pyrolistical.github.com
 title: xargs me
-subtitle: Pyrolistical's brain dump
+subtitle: Desperately Accumulating Knowledge
 author: Pyrolistical
 simple_search: http://google.com/search
 
@@ -67,10 +67,10 @@ twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -87,11 +87,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: xargsme
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id: UA-26491646-1
    
 # Facebook Like
-facebook_like: true   
+facebook_like: false
