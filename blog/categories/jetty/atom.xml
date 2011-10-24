@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[xargs me]]></title>
-  <link href="http://Pyrolistical.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: jetty | xargs me]]></title>
+  <link href="http://Pyrolistical.github.com/blog/categories/jetty/atom.xml" rel="self"/>
   <link href="http://Pyrolistical.github.com/"/>
   <updated>2011-10-23T23:45:06-07:00</updated>
   <id>http://Pyrolistical.github.com/</id>
@@ -24,7 +24,7 @@
 
 <p>However in Servlet 3 and Spring 3.1 we can now drop XML completely and have 100% code based configuration.  This includes the web.xml!  This is all thanks to the Servlet 3 spec!</p>
 
-<p>I wrote simple &#8220;Hello world&#8221; <a href="https://github.com/Pyrolistical/xml-free-spring">XML free Spring project</a>, but instead of going over the code now, I thought I would explain from the bottom up.  The bootstraping process of Spring can be a bit of magic, so hopefully this will actualize the process.</p>
+<p>I wrote simple "Hello world" <a href="https://github.com/Pyrolistical/xml-free-spring">XML free Spring project</a>, but instead of going over the code now, I thought I would explain from the bottom up.  The bootstraping process of Spring can be a bit of magic, so hopefully this will actualize the process.</p>
 
 <h3>XML free bootstrap process:</h3>
 
@@ -47,23 +47,6 @@
 <p>There are just two caveats at the moment.  First your application container must support Servlet 3 for this to work.  I used the Jetty 8 Maven plugin for testing.  Second Spring 3.1 is currently in RC1.  You can start playing with it now, but just remember to upgrade to the release version when it comes out next month.</p>
 
 <p>With all the configuration in code it is so easy to refactor and navigate.  No more back and forth with XML.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Why are D20s so popular?]]></title>
-    <link href="http://Pyrolistical.github.com/blog/2011/10/20/why-are-d20s-so-popular/"/>
-    <updated>2011-10-20T22:50:00-07:00</updated>
-    <id>http://Pyrolistical.github.com/blog/2011/10/20/why-are-d20s-so-popular</id>
-    <content type="html"><![CDATA[<p>I have to shamefully admit I never owned a D20 until recently.  While at the game shop I noticed they sold sets of dice as D4, D6, D8, D12, and D20.  Curious.  What is so special about these shapes?</p>
-
-<p>What is interesting is these shapes are <a href="http://en.wikipedia.org/wiki/Platonic_solid">Platonic solids</a>.  Platonic solids look &#8220;nice&#8221; because every face is the same shape and every angle between every shape is the same.  And what is unbelievable there are only 5 of them!  That bears repeating.  There is a finite number of such shapes, and there are only FIVE OF THEM!  Of all the possible shapes in 3D there are only 5 such shapes?  <a href="http://en.wikipedia.org/wiki/Euclid">Euclid</a> proved this in <a href="http://en.wikipedia.org/wiki/Euclid%27s_Elements">Elements</a>.</p>
-
-<p>So my first thought was if that was true then what about that trick of <a href="https://ziyan.info/2008/11/sphere-tessellation-using-icosahedron/">subdividing an icosahedron to tessellate a sphere</a>?  Why doesn&#8217;t that create a platonic solid with 80 sides?  Its because the first subdivision creates a shape where some vertices terminate 5 edges and others terminate 6 edges.</p>
-
-<p>This is very sad as it mean we can never have an uniform <a href="http://en.wikipedia.org/wiki/Geodesic_grid">Geodesic Grid</a> larger than 20 faces.  This is because subdivision of a single triangle becomes a four triangles in the shape of a triforce. This means two adjacent subdivided triangles now share a vertex with 6 edges. There does not exist a regular shape with each vertex having 6 edges.</p>
-
-<p>So D20 are popular because that&#8217;s as large as nice shapes get.</p>
 ]]></content>
   </entry>
   
