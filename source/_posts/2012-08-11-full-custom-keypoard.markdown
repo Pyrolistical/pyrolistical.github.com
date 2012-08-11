@@ -6,7 +6,7 @@ comments: true
 categories: [keyboard, hardware, custom]
 ---
 
-![KeyPoard](/images/keypoard/keypoard-finished.jpg)
+![KeyPoard](/images/keypoard/keypoard-finished.JPG)
 
 ####Feature Summary:
  - single piece machined aluminum case

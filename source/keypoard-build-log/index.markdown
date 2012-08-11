@@ -7,34 +7,34 @@ sharing: true
 footer: true
 ---
 I got the case from the machine shop!
-![Case](/images/keypoard/keypoard-al-case.jpg)
+![Case](/images/keypoard/keypoard-al-case.JPG)
 
 I choose a slightly different key switch hole to make it more machinable, but allowed the switch tops to be replaceable without desoldering.
-![Case](/images/keypoard/keypoard-al-case-zoom.jpg)
+![Case](/images/keypoard/keypoard-al-case-zoom.JPG)
 
 Here it is with the Cherry MX Blues.  The fit is so tight!  There is very little wiggle of the switches even without a pcb.  The power of precision CNC machining.
-![Case](/images/keypoard/keypoard-switches.jpg)
+![Case](/images/keypoard/keypoard-switches.JPG)
 
 And with R3 only blank key caps!
-![Case](/images/keypoard/keypoard-keycaps.jpg)
+![Case](/images/keypoard/keypoard-keycaps.JPG)
 
 I choose R3 only key caps so the entire keyboard would be flat.
-![Case](/images/keypoard/keypoard-flat.jpg)
+![Case](/images/keypoard/keypoard-flat.JPG)
 
 Hand wired the matrix.
-![Case](/images/keypoard/keypoard-matrix.jpg)
+![Case](/images/keypoard/keypoard-matrix.JPG)
 
 The trackpad fits perfectly and clicks without friction!  But I did screw up the corner radius so there is a gap.  Stupid imperial vs metric strikes again!
-![Case](/images/keypoard/keypoard-trackpad.jpg)
+![Case](/images/keypoard/keypoard-trackpad.JPG)
 
 The radius in the back matches the trackpad perfectly!  But there is a gap in order to make it machinable.
-![Case](/images/keypoard/keypoard-trackpad-back.jpg)
+![Case](/images/keypoard/keypoard-trackpad-back.JPG)
 
 Like lowploy, I wired the rows and cols with ribbon cable.
-![Case](/images/keypoard/keypoard-controller-wiring.jpg)
+![Case](/images/keypoard/keypoard-controller-wiring.JPG)
 
 Wired the ribbon cables to the controller.  You can tell I am pro at soldering!
-![Case](/images/keypoard/keypoard-controller.jpg)
+![Case](/images/keypoard/keypoard-controller.JPG)
 
 For the firmware, I first tried to use Hasu's, but I wired the matrix backwards to what the code expects.  I attempted to flip the matrix in the code, but it didn't work and I couldn't figure it out.
 
