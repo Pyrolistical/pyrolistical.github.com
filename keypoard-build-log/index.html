@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: jetty - xargs me</title>
+  <title>KeyPoard Build Log - xargs me</title>
   <meta name="author" content="Pyrolistical">
 
   
-  <meta name="description" content="Category: jetty">
+  <meta name="description" content="        KeyPoard Build Log            I got the case from the machine shop!I choose a slightly different key switch hole to make it more machinable...">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://Pyrolistical.github.comblog/categories/jetty/">
+  <link rel="canonical" href="http://Pyrolistical.github.com/keypoard-build-log/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,33 +76,86 @@
 <article role="article">
   
   <header>
-    <h1 class="entry-title">Category: Jetty</h1>
-    
+    <h1 class="entry-title">KeyPoard Build Log</h1>
+    <p class="meta">
+
+
+
+
+  
+
+<time datetime="2012-08-11T05:39:00-07:00" pubdate></time></p>
   </header>
   
-  <div id="blog-archives" class="category">
+  <p>I got the case from the machine shop!
+<img src="/images/keypoard/keypoard-al-case.jpg" alt="Case" /></p>
+
+<p>I choose a slightly different key switch hole to make it more machinable, but allowed the switch tops to be replaceable without desoldering.
+<img src="/images/keypoard/keypoard-al-case-zoom.jpg" alt="Case" /></p>
+
+<p>Here it is with the Cherry MX Blues.  The fit is so tight!  There is very little wiggle of the switches even without a pcb.  The power of precision CNC machining.
+<img src="/images/keypoard/keypoard-switches.jpg" alt="Case" /></p>
+
+<p>And with R3 only blank key caps!
+<img src="/images/keypoard/keypoard-keycaps.jpg" alt="Case" /></p>
+
+<p>I choose R3 only key caps so the entire keyboard would be flat.
+<img src="/images/keypoard/keypoard-flat.jpg" alt="Case" /></p>
+
+<p>Hand wired the matrix.
+<img src="/images/keypoard/keypoard-matrix.jpg" alt="Case" /></p>
+
+<p>The trackpad fits perfectly and clicks without friction!  But I did screw up the corner radius so there is a gap.  Stupid imperial vs metric strikes again!
+<img src="/images/keypoard/keypoard-trackpad.jpg" alt="Case" /></p>
+
+<p>The radius in the back matches the trackpad perfectly!  But there is a gap in order to make it machinable.
+<img src="/images/keypoard/keypoard-trackpad-back.jpg" alt="Case" /></p>
+
+<p>Like lowploy, I wired the rows and cols with ribbon cable.
+<img src="/images/keypoard/keypoard-controller-wiring.jpg" alt="Case" /></p>
+
+<p>Wired the ribbon cables to the controller.  You can tell I am pro at soldering!
+<img src="/images/keypoard/keypoard-controller.jpg" alt="Case" /></p>
+
+<p>For the firmware, I first tried to use Hasu&#8217;s, but I wired the matrix backwards to what the code expects.  I attempted to flip the matrix in the code, but it didn&#8217;t work and I couldn&#8217;t figure it out.</p>
+
+<p>So I gave up and tried the Phantom firmware because it was quite a bit more simpler.  The code already expects reading from the rows, so all I had to do was reconfigure the code.  Unfortunately the code hardcoded which pins are row/cols so I had to generalize that.</p>
+
+<p>I fired up the code and only found 2 mistakes in the physical matrix and had to resolder the the ribbon cable to the controller to clean up the stray wires.</p>
+
+<p>Otherwise everything just mostly worked!  I actually can&#8217;t believe how little debugging I had to do (ignoring the fact I couldn&#8217;t get my modified version of Hasu&#8217;s code to work).</p>
+
+  
+    <footer>
+      <p class="meta">
+        
+        
+
 
 
 
   
-  <h2>2011</h2>
 
-<article>
+<time datetime="2012-08-11T05:39:00-07:00" pubdate></time>
+        
+      </p>
+      
+        <div class="sharing">
   
-<h1><a href="/blog/2011/10/23/spring-without-xml/">Servlet 3 + Spring Without XML</a></h1>
-<time datetime="2011-10-23T17:07:00-07:00" pubdate><span class='month'>Oct</span> <span class='day'>23</span> <span class='year'>2011</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/jetty/'>jetty</a>, <a class='category' href='/blog/categories/servlet-3/'>servlet 3</a>, <a class='category' href='/blog/categories/spring-3-1/'>spring 3.1</a>, <a class='category' href='/blog/categories/xml/'>xml</a></span>
-</footer>
-
-
-</article>
-
+  
+  
 </div>
 
+      
+    </footer>
   
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -151,7 +204,10 @@
       var disqus_shortname = 'xargsme';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://Pyrolistical.github.com/keypoard-build-log/index.html';
+        var disqus_url = 'http://Pyrolistical.github.com/keypoard-build-log/index.html';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

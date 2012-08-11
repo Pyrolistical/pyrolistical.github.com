@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: custom | xargs me]]></title>
+  <link href="http://Pyrolistical.github.com/blog/categories/custom/atom.xml" rel="self"/>
+  <link href="http://Pyrolistical.github.com/"/>
+  <updated>2012-08-11T06:12:29-07:00</updated>
+  <id>http://Pyrolistical.github.com/</id>
+  <author>
+    <name><![CDATA[Pyrolistical]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Full Custom KeyPoard]]></title>
+    <link href="http://Pyrolistical.github.com/blog/2012/08/11/full-custom-keypoard/"/>
+    <updated>2012-08-11T04:47:00-07:00</updated>
+    <id>http://Pyrolistical.github.com/blog/2012/08/11/full-custom-keypoard</id>
+    <content type="html"><![CDATA[<p><img src="/images/keypoard/keypoard-finished.jpg" alt="KeyPoard" /></p>
+
+<h4>Feature Summary:</h4>
+
+<ul>
+<li>single piece machined aluminum case</li>
+<li>flat split true matrix layout</li>
+<li>large hand separation</li>
+<li>ten keyless</li>
+<li>Macintosh layout with symmetric standard modifiers</li>
+<li>integrated Apple Magic Trackpad and palm rest</li>
+<li>Cherry MX Blue keyswitches</li>
+<li>full n-key rollover matrix</li>
+</ul>
+
+
+<p>Ancestry of KeyPoard is a cross between HumbleHacker and Apple Wireless Keyboard.</p>
+
+<h3>Motivation</h3>
+
+<p>I've been looking for the perfect keyboard and was disappointed when I did not find it.</p>
+
+<p>I own a Kinesis Contoured and its where I fell in love with the non staggered layout, but I really didn't like some of the layout choices such as putting the +/= on the top left.  Sure I could remap it, but there isn't enough room to put it in the right place.  So I knew I wanted a keyboard with a more standard layout.  Which means <a href="http://typematrix.com/">TypeMatrix</a> and <a href="http://www.humblehacker.com/keyboard/">HumbleHacker</a> were also out.</p>
+
+<p>The other keyboard I regularly use is the Apple Wireless Keyboard.  I really like the design philosophy of Apple products where everything is beautifully designed yet functional.  This lead me to design a keyboard as simple as possible with the fewest parts.</p>
+
+<p>Keyboards have so much legacy behind them. Modern keyboards copy the staggering of keys mindlessly from the original typewriters.  Apple showed us a completely flat keyboard works, which is unlike most keyboards with varying row heights.</p>
+
+<p>I wasn't going to find my perfect keyboard.  I was going to have to make it myself which is where the story of KeyPoard begins.  I'll let you figure out why the b is upside down.</p>
+
+<h3>Layout</h3>
+
+<p><img src="/images/keypoard/keypoard-layout.png" alt="Layout" /></p>
+
+<p>This layout emulates the standard Macintosh, except I had room to sneak in another control key.  This makes the modifers nice and symmetric.</p>
+
+<p>The keyboard uses R3 keycaps to make the entire keyboard flat like the Apple Wireless Keyboard.  The keywells have good hand separation accomplished with an integrated Apple Magic Trackpad in the middle.</p>
+
+<h3>Case</h3>
+
+<p><img src="/images/keypoard/keypoard-case.png" alt="Case" /></p>
+
+<p>The case is machined out of a single block of aluminum.  Yes this makes it expensive, but this is what you need to do for simplicy of design.</p>
+
+<p>The integrated palm rest is to reduce wrist angle.  Regular keyboards are terrible for the wrist with their positive keyboard slopes.  The keys are as low as possible without the need to reach deep into the keywells to further minimize wrist angle.</p>
+
+<h3>Electronics</h3>
+
+<p>I am not creating a PCB for this keyboard.  Instead I took inspiration from lowpoly and going to hand wire the matrix like he did with <a href="http://deskthority.net/workshop-f7/the-apple-m0110-today-t1067.html">The Apple M0110 Today</a>.  As for the controller I will be using a <a href="http://www.pjrc.com/teensy/index.html">Teensy 2.0</a>.</p>
+
+<h3>Firmware</h3>
+
+<p>I was originally going to use hasu's <a href="https://github.com/tmk/tmk_keyboard">tmk_keyboard</a> firmware, but in the end I used the Phantom-Keyboard firmware which has now been moved to <a href="https://github.com/BathroomEpiphanies/Teensy-Keyboard">Teensy-Keyboard</a>.  The history is a bit lost now, but the current Teensy-Keyboard firmware integrated my <a href="https://github.com/Pyrolistical/Phantom-Keyboard/commit/4b349e51e3681839322333da7651bd6f1cbfdea1">configuration enhancements</a>.</p>
+
+<h3>Result</h3>
+
+<p>I've been using the KeyPoard for the last few days and its amazing!  Since I was used to the Kinesis Advantage matrix layout I was able to go at full typing speeds with relative ease.  There were a few minor build hickups and for all the details see the <a href="keypoard-build-log">Build Log</a>.</p>
+
+<p>Note: This was originally posted on geekhack.org, but due to their ups and downs I've decided to permanately move this post here.</p>
+]]></content>
+  </entry>
+  
+</feed>
