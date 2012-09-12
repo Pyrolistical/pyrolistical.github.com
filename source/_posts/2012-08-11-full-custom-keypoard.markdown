@@ -58,7 +58,7 @@ I was originally going to use hasu's [tmk_keyboard](https://github.com/tmk/tmk_k
 
 ###Result
 
-I've been using the KeyPoard for the last few days and its amazing!  Since I was used to the Kinesis Advantage matrix layout I was able to go at full typing speeds with relative ease.  There were a few minor build hickups and for all the details see the [Build Log](keypoard-build-log).
+I've been using the KeyPoard for the last few days and its amazing!  Since I was used to the Kinesis Advantage matrix layout I was able to go at full typing speeds with relative ease.  There were a few minor build hickups and for all the details see the [Build Log](http://pyrolistical.github.com/keypoard-build-log).
 
 Note: This was originally posted on geekhack.org, but due to their ups and downs I've decided to permanately move this post here.
 
